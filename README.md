@@ -1,4 +1,5 @@
-# MineSweeper Venkat Subramanium's 2017 UH Software Design course MineSweeper Game using TDD, OOD, and Java
+# MineSweeper 
+### Venkat Subramanium's 2017 UH Software Design course MineSweeper Game using TDD, OOD, and Java
 
 ## Specifications: 
 In this project I and a team mate created an Test Driven design for a (very basic) version of the minesweeper game.
