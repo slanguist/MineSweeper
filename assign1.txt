@@ -1,0 +1,40 @@
+Assign1: Due 11:59PM February 24
+
+Using Test First Development (no code without test first) implement the 
+problem you designed in hw2. Feel free to evolve that design and use your 
+judgment to make changes based on the improved understanding and learning.
+
+Take small steps, please ask for frequent reviews.
+
+First start with a tests list and a canary test.
+
+After completing the programming (and only after that) answer the following 
+questions:
+
+1. What did you learn mainly in this assignment?
+
+This assignment was a tremendous learning experience for both of us, in methodology, resources, and time management. For our methodology, we feel that the main things we learned were the “Red, Green, and Refactor” approach to Test Driven Design, and the ins and outs of pair coding. As far as resources, we learned that our best resources are our tests, and that the commonly requested sources of answers like Stack Overflow can be filled with convoluted solutions that don’t necessarily increase throughput or resolve questions related to a tightly constructed design like we aimed for. As far as time management, we found that coding every day is more of an ask than we expected, but the payoff is more than we could have anticipated as well. 
+Refraining from fully developing a function to instead write minimal code to turn a "Red" to a "Green" test was one of the most challenging obstacles for us. Short, concise steps were paramount in ensuring we moved forward at the right time, with the right tasks in mind. In the first few days, we frequently caught ourselves backspacing through hastily-written functions, reminding each other of the importance of letting a "Red" test write our program. After a week developing our program, writing the user interface without writing accompanying tests felt clumsy and awkward. This was when we realized the comfort and sureness that test-driven development provides. 
+Throughout the project, resources for the solution were a constant struggle. Mine Sweeper is one of the most commonly created games, and the internet is full of solutions that are downright atrocious in terms of readability, modularity, and minimalism. Searching through these solutions for ideas for our own solution proved to be a rabbit hole that was best left unexplored, in favor of directing questions to Venkat, and writing tests that pushed us in the right direction. So, our tests became our best resource for moving forward, and for thinking about how to code our functionality. 
+Time management, with respect to pair coding, was also a learning curve for this assignment. This was Simon’s first time doing pair coding, and Jorge’s first experience working with pair coding in situ. Learning the way in which we each approached the problem, and working together to meld our approaches turned out to be a tremendous experience in perspective, and in the multiplicity inherent to any design. In the end, there is no telling who committed more work to the project, because our solution emerged so naturally from the combination of our efforts. This team-work-driven design made the process, and the outcome, that much more rewarding, though there was a definite time expenditure for the learning curve of seeing things from our unique perspectives, and developing using compromise. 
+
+2. How is your current design different, if at all, from the strategic design 
+created in hw2?
+
+Our strategic design varied surprisingly little from our current design. Our initial design centered around four classes, a "Game" class where the logic of game was written, a "Cell" class that composed the "Game", and a "Frame" and "Button" classes that respectively represented the "Game" and "Cell" classes for a graphical user interface. From there we added an enumeration class "State" that would reflect the status of the "Game" and a "Launcher" class that would initialize the game. 
+Our final solution was composed of a MineSweeper class, which contained all the logic of our game, a GUI class for the Java Swing Frame, and a GUI class for the cells of the GUI frame. Inside our MineSweeper class, we had enumeration classes for our cell types and status, rather than the Cell Class with type and status attributes that we had in our initial strategic design. 
+
+3. Were there any surprise or things you did not expect along the way? Any 
+particular problem faced, things you had to tackle that you did not expect 
+beforehand?
+The experience in developing using TDD went as expected. We fully expected to have difficulty in purging our habits from developing using OTG design and JDD in the past. However, what we did not expect is the amount of time we spent on establishing the relationship between our logical classes and our user interface classes. Neither of us had much experience with user interfaces, and we did not expect to spend as much time was we did with Swing. Swing became the focus of our frustration, and a significant bottleneck in our progress. Multiple times we did time-blocking for the UI coding, and then proceeded to spend twice, or even three times as much time as we blocked to work on the UI interface. Thankfully, our frustrations with Swing in this assignment will save us frustration in the future, as we ended up with a much better understanding of the Swing framework than when we started out. 
+
+Total [100]: 100
+Code compiles [10]:
+Program produces reasonably desired results when run [10]:
+All tests pass [20]:
+Code Coverage [10]:
+Test quality [10]:
+Design quality [20]:
+Code quality [10]:
+Answers to questions in assign1.txt [10]:
